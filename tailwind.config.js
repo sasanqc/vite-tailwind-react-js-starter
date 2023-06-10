@@ -8,7 +8,21 @@ export default {
     xl: "1440px",
   },
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        xs: ["15px", "26px"],
+        sm: ["", ""],
+        base: ["", ""],
+        lg: ["", ""],
+        xl: ["", ""],
+        "2xl": ["", ""],
+        "3xl": ["", ""],
+        "4xl": ["", ""],
+      },
+      fontFamily: {
+        poppins: "'Poppins', sans serif",
+      },
+    },
   },
   plugins: [],
 };
